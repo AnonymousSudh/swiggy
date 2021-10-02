@@ -11,7 +11,7 @@ const Header = () => {
 
                 </div>
                 <div className="header_right">
-                    <li style="list-style: none;">
+                    <li style={{listStyle: "none"}}>
                         <a href="">Home</a>
                         <a href="">search</a>
                         <a href="">sign in</a>
