@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-
-import Header from './header'; 
 import App from './app';
+import './index.css';
+import { BrowserRouter } from 'react-router-dom';
 
 
 ReactDOM.render(
   
-  <>
-    <Header />
+
+   <BrowserRouter>
     <App />
-</>,
+    </BrowserRouter>
+,
   document.getElementById('root')
 );
 
